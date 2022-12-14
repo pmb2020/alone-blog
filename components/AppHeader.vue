@@ -13,11 +13,11 @@
 	const navList = ref([
 		{name:'首页',link:'/'},
 		{name:'产品中心',link:'/product'},
-		{name:'解决方案',link:'#',children:[
-			{name:'银行解决方案',link:'/solution/bank'},
-			{name:'证券解决方案',link:'/solution/bank'},
-			{name:'高铁解决方案',link:'/solution/bank'},
-		]},
+		// {name:'解决方案',link:'#',children:[
+		// 	{name:'银行解决方案',link:'/solution/bank'},
+		// 	{name:'证券解决方案',link:'/solution/bank'},
+		// 	{name:'高铁解决方案',link:'/solution/bank'},
+		// ]},
 		{name:'用户案例',link:'/example'},
 		{name:'新闻中心',link:'/news'},
 		{name:'关于我们',link:'/about'},

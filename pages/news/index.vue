@@ -13,7 +13,7 @@
 								<img class="rounded-lg w-full h-56" :title="newsItem.title" :src="newsItem.image" >
 							</nuxt-link>
 						</div>
-						<div class="md:w-3/4 md:ml-10">
+						<div class="md:w-3/4 md:ml-10 overflow-hidden">
 							<h3 class="new-title">
 								<nuxt-link :to="'/news/'+newsItem.id">{{newsItem.title}}</nuxt-link>
 							</h3>
@@ -32,39 +32,39 @@
 	import {ref} from 'vue'
 	const newsList = ref([{
 			id:1,
-			title: '先锋AI转写一体云录音系统',
-			image:'http://www.pioneerw.com/3.0/style/image/4.png',
-			desc:'先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统',
+			title: '新品上线！征服S29首款5G模块化定制对讲防爆手持智能终端，支持北斗天通卫星电话、红外热成像、DMR数模对讲！',
+			image:'http://www.conquest.cn/u_file/photo/20220424/41574e9241.jpg',
+			desc:'征服S29防爆手持智能对讲终端是一款高性能带RFID超高频防爆手持终端，安卓11.0操作系统，MT6873V/Z八核处理器',
 			date: '2022-11-14 16:44'
 		},
 		{
 			id:2,
-			title: '2022年人工智能领域发展七大趋势',
-			image:'http://www.pioneerw.com/3.0/style/image/3.png',
-			desc:'先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统',
+			title: '水井下防爆平板电脑的工业应用，征服S22模块化定制防爆对讲高精度平板！',
+			image:'http://www.conquest.cn/u_file/photo/20220302/1b0bec7e97.jpg',
+			desc:'防爆平板也统称为防爆平板电脑，采用本安型电路设计，适用于石油、化工、制药、天然气管道、油库、加油站、炼油厂、天然气液化站、钻井平台、罐区等具有可燃性、爆炸性气体危险场所的1区和2区',
 			date: '2022-11-12 13:12'
 		},
 		{
 			id:3,
-			title: '先锋云录音系统助力铁路行业对讲机、售票窗口录音',
-			image:'http://www.pioneerw.com/3.0/style/image/2.png',
-			desc:'先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统',
+			title: 'CONQUEST征服防爆手机品牌',
+			image:'http://www.conquest.cn/u_file/photo/20220217/826bb6ef1b.jpg',
+			desc:'conquest是深圳市康凯思特通讯设备有限公司旗下品牌。CONQUEST，中文名征服，成立于2013年，总部位于创业之都南海之滨——深圳，是一家致力于高端智能三防手持终端的研发、设计、制造和销售为一体的国家双高新科技企业',
 			date: '2022-11-12 13:12'
 		},
 		{
-			id:4,
-			title: '先锋音讯应邀参加  2019第四届上海国际人工智能展',
-			image:'http://www.pioneerw.com/3.0/style/image/1.png',
-			desc:'先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统',
-			date: '2022-11-12 13:12'
-		},
+				id:1,
+				title: '新品上线！征服S29首款5G模块化定制对讲防爆手持智能终端，支持北斗天通卫星电话、红外热成像、DMR数模对讲！',
+				image:'http://www.conquest.cn/u_file/photo/20220424/41574e9241.jpg',
+				desc:'征服S29防爆手持智能对讲终端是一款高性能带RFID超高频防爆手持终端，安卓11.0操作系统，MT6873V/Z八核处理器',
+				date: '2022-11-14 16:44'
+			},
 		{
-			id:5,
-			title: '先锋音讯中标广铁集团 VAA技术融入铁路行业专网',
-			image:'http://www.pioneerw.com/3.0/style/image/5.png',
-			desc:'先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统先锋AI转写一体云录音系统',
-			date: '2022-11-12 13:12'
-		},
+				id:1,
+				title: '新品上线！征服S29首款5G模块化定制对讲防爆手持智能终端，支持北斗天通卫星电话、红外热成像、DMR数模对讲！',
+				image:'http://www.conquest.cn/u_file/photo/20220424/41574e9241.jpg',
+				desc:'征服S29防爆手持智能对讲终端是一款高性能带RFID超高频防爆手持终端，安卓11.0操作系统，MT6873V/Z八核处理器',
+				date: '2022-11-14 16:44'
+			},
 	])
 </script>
 

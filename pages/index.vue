@@ -21,7 +21,7 @@
 				</div>
 				<div class="md:flex">
 					<div class="md:w-1/2 mb-8">
-						<img class="rounded-lg w-full h-52 md:h-100" src="http://www.pioneerw.com/3.0/style/image/4.png">
+						<img class="rounded-lg w-full h-52 md:h-100" src="http://cdn.gold404.cn/nuxt/bao1.png">
 					</div>
 					<div class="p-1 md:w-1/2 md:ml-10">
 						<ul class="news-list-ul">
@@ -40,7 +40,10 @@
 			</section>
 		</div>
 		<!-- 行业解决方案 -->
-		<PageSolution />
+		<!-- <PageSolution /> -->
+		<div>
+			<img src="http://www.conquest.cn/u_file/photo/20190604/b73f67c320.jpg" alt="">
+		</div>
 		<!-- 产品中心 -->
 		<PageProduct />
 	</div>
@@ -50,39 +53,43 @@
 	const title = ref('VAA先锋音讯企业官网')
 	const bannerList = ref([{
 			title: '这是一个title',
-			image: 'http://www.pioneerw.com/res/images/banner/213525321.jpg'
+			image: 'http://www.conquest.cn/u_file/photo/20221015/10ea10934c.jpg'
 		},
 		{
 			title: '这是一个title',
-			image: 'http://www.pioneerw.com/res/images/banner/213525321.jpg'
+			image: 'http://www.conquest.cn/u_file/photo/20220414/d2b8a53a48.jpg'
 		},
 		{
 			title: '这是一个title',
-			image: 'http://www.pioneerw.com/res/images/banner/213525321.jpg'
+			image: 'http://www.conquest.cn/u_file/photo/20220309/a41eec827f.jpg'
+		},
+		{
+			title: '这是一个title',
+			image: 'http://www.conquest.cn/u_file/photo/20210303/2e9ffe83ab.jpg'
 		},
 	])
 	const newsList = ref([{
-			title: '先锋AI转写一体云录音系统',
+			title: '新品上市 |2022款迷你防爆智能手机全新发布',
 			date: '2022-11-14'
 		},
 		{
-			title: '2022年人工智能领域发展七大趋势',
+			title: '新品来袭！智能防疫+物联网防爆对讲终端上市',
 			date: '2022-11-12'
 		},
 		{
-			title: '先锋云录音系统助力铁路行业对讲机、售票窗口录音',
+			title: '智能对讲手持终端三防多模对讲抗菌防爆手机',
 			date: '2022-11-12'
 		},
 		{
-			title: '先锋音讯应邀参加  2019第四届上海国际人工智能展',
+			title: 'UWB室内高精度人员定位防爆手机',
 			date: '2022-11-12'
 		},
 		{
-			title: '先锋音讯中标广铁集团 VAA技术融入铁路行业专网',
+			title: '5G矿用井下防爆手机在井下的具体应用',
 			date: '2022-11-12'
 		},
 		{
-			title: '2022年人工智能领域发展七大趋势',
+			title: '目前5G防爆手机值得买哪一款？',
 			date: '2022-11-12'
 		},
 	])
