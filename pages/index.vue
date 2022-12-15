@@ -6,8 +6,36 @@
 			<!-- <Style type="text/css" children="body { background-color: green; }" /> -->
 		</Head>
 		<AloneBanner class="h-44 md:h-auto" :data='bannerList' />
+		<div class="al-container">
+			<div class="md:flex md:flex-row">
+				<div class="basis-1/2">
+					<img style="width: 100%;" src="http://www.conquest.cn/u_file/photo/20221025/c28ae9b0ce.png" alt="">
+				</div>
+				<div class="basis-1/2">
+					<div class="md:mt-32">
+						<h3 class="mb-4">防爆手机 三防智能手机 F2 迷你三防手机</h3>
+						<p class="mb-5" style="font-size: 1.5rem;">CONQUEST 征服F2迷你三防智能手机户外防水防摔对讲儿童学生戒网瘾手机超长待机全网通4G 6GB+128GB</p>
+						<p class="mb-5" style="color: #888;font-size: 14px;">CONQUEST 征服F2迷你三防智能户外防水防摔对讲儿童学生手机超长待机全网通4G 6GB+128GB</p>
+						<button class="">查看更多</button>
+					</div>
+				</div>
+			</div>
+			<div class="md:flex md:flex-row-reverse  mt-12">
+				<div class="basis-1/2">
+					<img src="http://www.conquest.cn/u_file/photo/20221025/3b99f03aee.png" alt="">
+				</div>
+				<div class="basis-1/2">
+					<div class="md:mt-32">
+						<h3 class="mb-4">CONQUEST征服F5 防爆手机 工业物联网智能对讲终端</h3>
+						<p class="mb-5" style="font-size: 1.4rem;">CONQUEST征服F5 防爆手机 工业物联网智能对讲终端，智能防疫核验手持终端，DMR数模对讲、一二维扫码、红外夜视摄像 RTK高精度定位</p>
+						<p class="mb-5" style="color: #888;font-size: 14px;">CONQUEST征服F5 防爆手机 工业物联网智能对讲终端，智能防疫核验手持终端，DMR数模对讲、一二维扫码、红外夜视摄像</p>
+						<button class="">查看更多</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- 新闻中心 -->
-		<div class="py-1 md:py-8" style="background-color: #fff;">
+		<div class="py-1 md:py-8" style="background-color: #fff;display:none">
 			<section class="al-container">
 				<div class="flex justify-between mb-6">
 					<div>

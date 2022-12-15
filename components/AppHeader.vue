@@ -18,8 +18,8 @@
 		// 	{name:'证券解决方案',link:'/solution/bank'},
 		// 	{name:'高铁解决方案',link:'/solution/bank'},
 		// ]},
-		{name:'经典案例',link:'/example'},
 		{name:'行业定制',link:'/industry'},
+		{name:'经典案例',link:'/example'},
 		// {name:'新闻中心',link:'/news'},
 		{name:'关于我们',link:'/about'},
 	])
