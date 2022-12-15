@@ -5,7 +5,7 @@
 			<img style="display: inline-block;margin-left: 4px;" src="~/assets/images/gongan.jpeg" alt="">
 			<nuxt-link class="" target="_blank" to="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=1" ref="nofollow">京公网安备 11010802021733号</nuxt-link>
 		</p>
-		<p>先锋音讯公司 © 版权所有  公司地址：中国北京市海淀区中关村东路66号世纪科贸大厦C座22层</p>
+		<p>火星智造（北京）高科技有限公司 © 版权所有  公司地址：中国北京市海淀区中关村东路66号世纪科贸大厦C座22层</p>
 	</footer>
 </template>
 

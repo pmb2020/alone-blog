@@ -1,9 +1,9 @@
 <template>
 	<div class="">
-		<PageTop title="用户案例" />
+		<PageTop title="经典案例" />
 		<div class="al-container">
 			<div class="text-slate-500">
-				您所在的位置：首页 / 用户案例
+				您所在的位置：首页 / 经典案例
 			</div>
 			<div class="mt-6">
 				<div class="mb-10 md:mb-16" v-for="(pItem,pIndex) in data" :key="pIndex">

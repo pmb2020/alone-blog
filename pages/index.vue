@@ -51,10 +51,7 @@
 
 <script setup>
 	const title = ref('VAA先锋音讯企业官网')
-	const bannerList = ref([{
-			title: '这是一个title',
-			image: 'http://www.conquest.cn/u_file/photo/20221015/10ea10934c.jpg'
-		},
+	const bannerList = ref([
 		{
 			title: '这是一个title',
 			image: 'http://www.conquest.cn/u_file/photo/20220414/d2b8a53a48.jpg'
@@ -62,10 +59,6 @@
 		{
 			title: '这是一个title',
 			image: 'http://www.conquest.cn/u_file/photo/20220309/a41eec827f.jpg'
-		},
-		{
-			title: '这是一个title',
-			image: 'http://www.conquest.cn/u_file/photo/20210303/2e9ffe83ab.jpg'
 		},
 	])
 	const newsList = ref([{

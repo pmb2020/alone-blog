@@ -1,7 +1,7 @@
 <template>
 	<header class="header">
 		<div>
-			<img class="h-16" src="http://www.pioneerw.com/img/blogo.jpg" alt="">
+			<img class="h-12" src="@/assets/images/logo.png" alt="">
 		</div>
 		<AloneNavBar :data="navList" />
 	</header>
@@ -18,8 +18,9 @@
 		// 	{name:'证券解决方案',link:'/solution/bank'},
 		// 	{name:'高铁解决方案',link:'/solution/bank'},
 		// ]},
-		{name:'用户案例',link:'/example'},
-		{name:'新闻中心',link:'/news'},
+		{name:'经典案例',link:'/example'},
+		{name:'行业定制',link:'/industry'},
+		// {name:'新闻中心',link:'/news'},
 		{name:'关于我们',link:'/about'},
 	])
 </script>
