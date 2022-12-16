@@ -13,14 +13,19 @@
 			
 		</div>
 		<div class="al-container">
-			<div class="flex flex-row">
+			<div class="md:flex md:flex-row">
 				<div class="basis-3/4">
 					<img src="@/assets/images/industry.jpg" alt="">
 				</div>
 				<div class="basis-1/4">
-					<div class="rounded shadow-lg" style="background-color: #fff;margin-left: 1rem;padding: 1rem;">
-						联系方式：4006-855-333
+					<div style="background-color: #e60013;color: #fff;padding: 15px 30px;margin-top: 2rem;">
+						联系电话
 					</div>
+					<ul class="ul-text">
+						<li>
+							<Nuxt-link to="#">4006-855-333</Nuxt-link>
+						</li>
+					</ul>
 				</div>
 			</div>
 			

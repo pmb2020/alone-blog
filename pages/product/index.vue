@@ -1,8 +1,11 @@
 <template>
 	<div class="product mb-16">
 		<PageTop title="产品中心" />
-		<div class="al-container md:mt-9">
-			<div>
+		<div class="al-container">
+			<div class="text-sm text-slate-500">
+				您所在的位置：首页 / 产品中心
+			</div>
+			<div class="md:mt-5">
 				<ul class="category-ul">
 					<li class="mb-2 mr-3" :class="{'active':categoryIndex==index}" v-for="(item,index) in categories" @click="categoryClick(index)" :key="index">
 						{{item.name}}
@@ -33,15 +36,14 @@
 		{id:4,name:'配件'},
 	])
 	const productList = ref([
-		{id:1,title:'CONQUEST征服 防爆手机 三防智能手机 F2 迷你三防手机',image:'http://www.conquest.cn/u_file/photo/20221025/deeb3ce311.png'},
-		{id:1,title:'CONQUEST征服F5 防爆手机 工业物联网智能对讲终端',image:'http://www.conquest.cn/u_file/photo/20220727/c4c2ba782a.png'},
-		{id:1,title:'CONQUEST征服 防爆平板 S22 5G工业级模块化定制防爆对讲平板',image:'http://www.conquest.cn/u_file/photo/20221025/c2a5cd7e48.png'},
-		{id:1,title:'CONQUEST征服S20 5G红外热成像三防智能手机 电力巡检终端',image:'http://www.conquest.cn/u_file/photo/20220329/9d77c9c366.png'},
-		{id:1,title:'CONQUEST征服S29 5G三防手机',image:'http://www.conquest.cn/u_file/photo/20220421/a9950f9962.png'},
-		{id:1,title:'CONQUEST征服S28 5G智能三防手机 双时隙数模三防对讲手机',image:'http://www.conquest.cn/u_file/photo/20220510/233812d5a5.png'},
-		{id:1,title:'CONQUEST征服S21 5G轻薄三防手机 防爆手机',image:'http://www.conquest.cn/u_file/photo/20210902/418199e0fb.png'},
-		{id:1,title:'CONQUEST 征服 防爆手机 5G三防手机 S20  5G 红外夜视三防手机',image:'http://www.conquest.cn/u_file/photo/20201224/18d73ed3b5.png'},
-		{id:1,title:'征服CONQUEST S19三防手机 广电700M专网手机 WiFi6煤安防爆手',image:'http://www.conquest.cn/u_file/photo/20210706/9304f2d419.png'},
+		{id:1,title:'AORO遨游 A6',image:'http://cdn.xfrec.com/vaa/A6.jpg'},
+		{id:1,title:'AORO遨游 A8',image:'http://cdn.xfrec.com/vaa/A8.jpg'},
+		{id:1,title:'AORO遨游 A9',image:'http://cdn.xfrec.com/vaa/A9.jpg'},
+		{id:1,title:'AORO遨游 A11',image:'http://cdn.xfrec.com/vaa/A11.jpg'},
+		{id:1,title:'AORO遨游 A12',image:'http://cdn.xfrec.com/vaa/A12.jpg'},
+		{id:1,title:'AORO遨游 A13',image:'http://cdn.xfrec.com/vaa/A13.jpg'},
+		{id:1,title:'AORO遨游 A15',image:'http://cdn.xfrec.com/vaa/A15.jpg'},
+		{id:1,title:'AORO遨游 A16',image:'http://cdn.xfrec.com/vaa/A16.jpg'},
 	])
 	const categoryClick = (index)=>{
 		categoryIndex.value = index

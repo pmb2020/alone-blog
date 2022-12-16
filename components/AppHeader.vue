@@ -1,7 +1,7 @@
 <template>
 	<header class="header">
 		<div>
-			<img class="h-12" src="@/assets/images/logo.png" alt="">
+			<img class="h-16" src="@/assets/images/logo.png" alt="">
 		</div>
 		<AloneNavBar :data="navList" />
 	</header>

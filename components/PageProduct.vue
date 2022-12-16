@@ -12,22 +12,22 @@
 		</div>
 		<div class="grid grid-cols-3 gap-10">
 			<div>
-				<img src="http://www.conquest.cn/u_file/photo/20221025/deeb3ce311.png" alt="">
+				<img src="http://cdn.xfrec.com/vaa/A9.jpg" alt="">
 			</div>
 			<div>
-				<img src="http://www.conquest.cn/u_file/photo/20220727/c4c2ba782a.png" alt="">
+				<img src="http://cdn.xfrec.com/vaa/A11.jpg" alt="">
 			</div>
 			<div>
-				<img src="http://www.conquest.cn/u_file/photo/20221025/c2a5cd7e48.png" alt="">
+				<img src="http://cdn.xfrec.com/vaa/A12.jpg" alt="">
 			</div>
 			<div>
-				<img src="http://www.conquest.cn/u_file/photo/20220329/9d77c9c366.png" alt="">
+				<img src="http://cdn.xfrec.com/vaa/A13.jpg" alt="">
 			</div>
 			<div>
-				<img src="http://www.conquest.cn/u_file/photo/20220421/a9950f9962.png" alt="">
+				<img src="http://cdn.xfrec.com/vaa/A15.jpg" alt="">
 			</div>
 			<div>
-				<img src="http://www.conquest.cn/u_file/photo/20201224/18d73ed3b5.png" alt="">
+				<img src="http://cdn.xfrec.com/vaa/A16.jpg" alt="">
 			</div>
 		</div>
 	</section>

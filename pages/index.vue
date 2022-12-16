@@ -6,29 +6,32 @@
 			<!-- <Style type="text/css" children="body { background-color: green; }" /> -->
 		</Head>
 		<AloneBanner class="h-44 md:h-auto" :data='bannerList' />
+		<!-- 产品中心 -->
+		<PageProduct />
+		<div>
+			<img src="http://www.conquest.cn/u_file/photo/20190604/b73f67c320.jpg" alt="">
+		</div>
 		<div class="al-container">
 			<div class="md:flex md:flex-row">
 				<div class="basis-1/2">
-					<img style="width: 100%;" src="http://www.conquest.cn/u_file/photo/20221025/c28ae9b0ce.png" alt="">
+					<img style="width: 80%;" src="http://cdn.xfrec.com/vaa/A6.jpg" alt="">
 				</div>
 				<div class="basis-1/2">
-					<div class="md:mt-32">
-						<h3 class="mb-4">防爆手机 三防智能手机 F2 迷你三防手机</h3>
-						<p class="mb-5" style="font-size: 1.5rem;">CONQUEST 征服F2迷你三防智能手机户外防水防摔对讲儿童学生戒网瘾手机超长待机全网通4G 6GB+128GB</p>
-						<p class="mb-5" style="color: #888;font-size: 14px;">CONQUEST 征服F2迷你三防智能户外防水防摔对讲儿童学生手机超长待机全网通4G 6GB+128GB</p>
+					<div class="md:mt-16">
+						<h3 class="mb-5" style="font-size: 1.5rem;">AORO遨游A6全能王户外三防手机</h3>
+						<p class="mb-16" style="color: #888;font-size: 14px;">A6装备多用途实用工具和专业传感器，以帮助您进一步探索在户外。不管你需要什么，你都可以在电话里找到。有了这个手机，一切都会顺利地在你的冒险。</p>
 						<button class="">查看更多</button>
 					</div>
 				</div>
 			</div>
 			<div class="md:flex md:flex-row-reverse  mt-12">
 				<div class="basis-1/2">
-					<img src="http://www.conquest.cn/u_file/photo/20221025/3b99f03aee.png" alt="">
+					<img style="width: 80%;" src="http://cdn.xfrec.com/vaa/A8.jpg" alt="">
 				</div>
 				<div class="basis-1/2">
-					<div class="md:mt-32">
-						<h3 class="mb-4">CONQUEST征服F5 防爆手机 工业物联网智能对讲终端</h3>
-						<p class="mb-5" style="font-size: 1.4rem;">CONQUEST征服F5 防爆手机 工业物联网智能对讲终端，智能防疫核验手持终端，DMR数模对讲、一二维扫码、红外夜视摄像 RTK高精度定位</p>
-						<p class="mb-5" style="color: #888;font-size: 14px;">CONQUEST征服F5 防爆手机 工业物联网智能对讲终端，智能防疫核验手持终端，DMR数模对讲、一二维扫码、红外夜视摄像</p>
+					<div class="md:mt-16">
+						<h3 class="mb-5" style="font-size: 1.5rem;">AORO遨游A8工业级智能防爆手机</h3>
+						<p class="mb-16" style="color: #888;font-size: 14px;">应用程序工具箱，里面包含大量的应用程序，徒步旅行和登山满足你。噪音测试、指南针、手电筒、水平仪、挂画、心率、高度测量、放大镜、警铃、铅锤、量角器。</p>
 						<button class="">查看更多</button>
 					</div>
 				</div>
@@ -69,11 +72,6 @@
 		</div>
 		<!-- 行业解决方案 -->
 		<!-- <PageSolution /> -->
-		<div>
-			<img src="http://www.conquest.cn/u_file/photo/20190604/b73f67c320.jpg" alt="">
-		</div>
-		<!-- 产品中心 -->
-		<PageProduct />
 	</div>
 </template>
 
