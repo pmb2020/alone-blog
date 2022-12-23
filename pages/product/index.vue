@@ -15,8 +15,8 @@
 			<div class="mt-3 md:mt-10">
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-10">
 					<div v-for="(item,index) in productList" :key="index">
-						<nuxt-link to="#">
-							<img class="h-44 md:h-60 rounded-lg" :src="item.image" :title="item.title" :alt="item.title">
+						<nuxt-link :to="'/product/'+item.id">
+							<img class="h-44 md:h-60 rounded-lg" :src="item.main_pic" :title="item.title" :alt="item.title">
 							<p class="mt-1">{{item.title}}</p>
 						</nuxt-link>
 					</div>
@@ -32,8 +32,6 @@
 		{id:1,name:'全部'},
 		{id:2,name:'三防手机'},
 		{id:3,name:'防爆手机'},
-		{id:4,name:'防爆记录仪'},
-		{id:4,name:'配件'},
 	])
 	const productList = ref([
 		{id:1,title:'AORO遨游 A6',image:'http://cdn.xfrec.com/vaa/A6.jpg'},
@@ -45,6 +43,17 @@
 		{id:1,title:'AORO遨游 A15',image:'http://cdn.xfrec.com/vaa/A15.jpg'},
 		{id:1,title:'AORO遨游 A16',image:'http://cdn.xfrec.com/vaa/A16.jpg'},
 	])
+	await useFetch('http://39.105.2.43:90/api/product').then(res=>{
+		console.log(res.data._rawValue)
+		if(res.data._rawValue.code===0){
+			productList.value = res.data._rawValue.data.data
+			console.log(productList.value)
+		}
+	})
+	onMounted(()=>{
+		// console.log(product.data)
+		
+	})
 	const categoryClick = (index)=>{
 		categoryIndex.value = index
 		productList.value.sort(()=>{

@@ -12,22 +12,34 @@
 		</div>
 		<div class="grid grid-cols-3 gap-10">
 			<div>
-				<img src="http://cdn.xfrec.com/vaa/A9.jpg" alt="">
+				<nuxt-link to="/product/3">
+					<img src="http://cdn.xfrec.com/vaa/A9.jpg" alt="">
+				</nuxt-link>
 			</div>
 			<div>
-				<img src="http://cdn.xfrec.com/vaa/A11.jpg" alt="">
+				<nuxt-link to="/product/4">
+					<img src="http://cdn.xfrec.com/vaa/A11.jpg" alt="">
+				</nuxt-link>
 			</div>
 			<div>
-				<img src="http://cdn.xfrec.com/vaa/A12.jpg" alt="">
+				<nuxt-link to="/product/5">
+					<img src="http://cdn.xfrec.com/vaa/A12.jpg" alt="">
+				</nuxt-link>
 			</div>
 			<div>
-				<img src="http://cdn.xfrec.com/vaa/A13.jpg" alt="">
+				<nuxt-link to="/product/6">
+					<img src="http://cdn.xfrec.com/vaa/A13.jpg" alt="">
+				</nuxt-link>
 			</div>
 			<div>
-				<img src="http://cdn.xfrec.com/vaa/A15.jpg" alt="">
+				<nuxt-link to="/product/7">
+					<img src="http://cdn.xfrec.com/vaa/A15.jpg" alt="">
+				</nuxt-link>
 			</div>
 			<div>
-				<img src="http://cdn.xfrec.com/vaa/A16.jpg" alt="">
+				<nuxt-link to="/product/8">
+					<img src="http://cdn.xfrec.com/vaa/A16.jpg" alt="">
+				</nuxt-link>
 			</div>
 		</div>
 	</section>

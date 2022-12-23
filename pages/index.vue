@@ -20,7 +20,7 @@
 					<div class="md:mt-16">
 						<h3 class="mb-5" style="font-size: 1.5rem;">AORO遨游A6全能王户外三防手机</h3>
 						<p class="mb-16" style="color: #888;font-size: 14px;">A6装备多用途实用工具和专业传感器，以帮助您进一步探索在户外。不管你需要什么，你都可以在电话里找到。有了这个手机，一切都会顺利地在你的冒险。</p>
-						<button class="">查看更多</button>
+						<button class=""><nuxt-link to="/product">查看更多</nuxt-link></button>
 					</div>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
 					<div class="md:mt-16">
 						<h3 class="mb-5" style="font-size: 1.5rem;">AORO遨游A8工业级智能防爆手机</h3>
 						<p class="mb-16" style="color: #888;font-size: 14px;">应用程序工具箱，里面包含大量的应用程序，徒步旅行和登山满足你。噪音测试、指南针、手电筒、水平仪、挂画、心率、高度测量、放大镜、警铃、铅锤、量角器。</p>
-						<button class="">查看更多</button>
+						<button class=""><nuxt-link to="/product">查看更多</nuxt-link></button>
 					</div>
 				</div>
 			</div>
