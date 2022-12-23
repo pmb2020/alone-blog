@@ -16,12 +16,12 @@
 
 <script setup>
 	const route = useRoute()
-	const data1 = ref({'ssss':'sss'})
-	await useFetch('http://127.0.0.1:85/api/product/'+route.params.id).then(res=>{
-		if(res.data._rawValue.code===0){
-			data1.value = res.data._rawValue.data.data
-		}
-	})
+	// const data1 = ref({'ssss':'sss'})
+	// await useFetch('http://127.0.0.1:85/api/product/'+route.params.id).then(res=>{
+	// 	if(res.data._rawValue.code===0){
+	// 		data1.value = res.data._rawValue.data.data
+	// 	}
+	// })
 	const res = await useFetch('http://39.105.2.43:90/api/product/'+route.params.id);
 	const data = ref(res.data._rawValue.data);
 </script>
