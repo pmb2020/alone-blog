@@ -34,14 +34,14 @@
 		{id:3,name:'防爆手机'},
 	])
 	const productList = ref([
-		{id:1,title:'AORO遨游 A6',image:'http://cdn.xfrec.com/vaa/A6.jpg'},
-		{id:1,title:'AORO遨游 A8',image:'http://cdn.xfrec.com/vaa/A8.jpg'},
-		{id:1,title:'AORO遨游 A9',image:'http://cdn.xfrec.com/vaa/A9.jpg'},
-		{id:1,title:'AORO遨游 A11',image:'http://cdn.xfrec.com/vaa/A11.jpg'},
-		{id:1,title:'AORO遨游 A12',image:'http://cdn.xfrec.com/vaa/A12.jpg'},
-		{id:1,title:'AORO遨游 A13',image:'http://cdn.xfrec.com/vaa/A13.jpg'},
-		{id:1,title:'AORO遨游 A15',image:'http://cdn.xfrec.com/vaa/A15.jpg'},
-		{id:1,title:'AORO遨游 A16',image:'http://cdn.xfrec.com/vaa/A16.jpg'},
+		{id:1,title:'先phone A6',image:'http://cdn.xfrec.com/vaa/A6.jpg'},
+		{id:2,title:'先phone A8',image:'http://cdn.xfrec.com/vaa/A8.jpg'},
+		{id:3,title:'先phone A9',image:'http://cdn.xfrec.com/vaa/A9.jpg'},
+		{id:4,title:'先phone A11',image:'http://cdn.xfrec.com/vaa/A11.jpg'},
+		{id:5,title:'先phone A12',image:'http://cdn.xfrec.com/vaa/A12.jpg'},
+		{id:6,title:'先phone A13',image:'http://cdn.xfrec.com/vaa/A13.jpg'},
+		{id:7,title:'先phone A15',image:'http://cdn.xfrec.com/vaa/A15.jpg'},
+		{id:8,title:'先phone A16',image:'http://cdn.xfrec.com/vaa/A16.jpg'},
 	])
 	await useFetch('http://39.105.2.43:90/api/product').then(res=>{
 		console.log(res.data._rawValue)
