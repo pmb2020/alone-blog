@@ -23,7 +23,7 @@
 				</div>
 				<div class="basis-1/2">
 					<div class="md:mt-16">
-						<h3 class="mb-5" style="font-size: 1.5rem;">IMETA元探索A6全能王户外三防手机</h3>
+						<h3 class="mb-5" style="font-size: 1.5rem;">imeta元探索A6全能王户外三防手机</h3>
 						<p class="mb-16" style="color: #888;font-size: 14px;">A6装备多用途实用工具和专业传感器，以帮助您进一步探索在户外。不管你需要什么，你都可以在电话里找到。有了这个手机，一切都会顺利地在你的冒险。</p>
 						<button class=""><nuxt-link to="/product">查看更多</nuxt-link></button>
 					</div>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="basis-1/2">
 					<div class="md:mt-16">
-						<h3 class="mb-5" style="font-size: 1.5rem;">IMETA元探索A8工业级智能防爆手机</h3>
+						<h3 class="mb-5" style="font-size: 1.5rem;">imeta元探索A8工业级智能防爆手机</h3>
 						<p class="mb-16" style="color: #888;font-size: 14px;">应用程序工具箱，里面包含大量的应用程序，徒步旅行和登山满足你。噪音测试、指南针、手电筒、水平仪、挂画、心率、高度测量、放大镜、警铃、铅锤、量角器。</p>
 						<button class=""><nuxt-link to="/product">查看更多</nuxt-link></button>
 					</div>
@@ -86,14 +86,14 @@
 </template>
 
 <script setup>
-	const title = ref('IMETA元探索防爆手机官网')
+	const title = ref('imeta元探索防爆手机官网')
 	const bannerList = ref([
 		{
-			title: 'IMETA元探索防爆手机',
+			title: 'imeta元探索防爆手机',
 			image: 'http://www.conquest.cn/u_file/photo/20220414/d2b8a53a48.jpg'
 		},
 		{
-			title: 'IMETA元探索防爆手机',
+			title: 'imeta元探索防爆手机',
 			image: 'http://www.conquest.cn/u_file/photo/20220309/a41eec827f.jpg'
 		},
 	])
