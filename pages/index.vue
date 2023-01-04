@@ -6,19 +6,24 @@
 			<!-- <Style type="text/css" children="body { background-color: green; }" /> -->
 		</Head>
 		<AloneBanner class="h-44 md:h-auto" :data='bannerList' />
-		<!-- 产品中心 -->
-		<PageProduct />
-		<div>
-			<img src="http://www.conquest.cn/u_file/photo/20190604/b73f67c320.jpg" alt="">
-		</div>
-		<div class="al-container">
+		<div class="al-container mb-6">
+			<div class="flex justify-between m-6">
+				<div>
+					<h2 class="md:text-4xl md:mb-2" style="color: #12205B;font-weight: 600;">热门推荐</h2>
+					<p class="hidden md:block text-xs md:text-2xl" style="font-style: italic;color: #d6dbe4;">PRODUCT CENTER</p>
+				</div>
+				<div class="flex items-center">
+					<div class="bar"></div>
+					<p class="text-xs md:text-lg text-slate-400"><nuxt-link to="/product">查看更多></nuxt-link></p>
+				</div>
+			</div>
 			<div class="md:flex md:flex-row">
 				<div class="basis-1/2">
 					<img style="width: 80%;" src="http://cdn.xfrec.com/vaa/A6.jpg" alt="">
 				</div>
 				<div class="basis-1/2">
 					<div class="md:mt-16">
-						<h3 class="mb-5" style="font-size: 1.5rem;">AORO遨游A6全能王户外三防手机</h3>
+						<h3 class="mb-5" style="font-size: 1.5rem;">IMETA元探索A6全能王户外三防手机</h3>
 						<p class="mb-16" style="color: #888;font-size: 14px;">A6装备多用途实用工具和专业传感器，以帮助您进一步探索在户外。不管你需要什么，你都可以在电话里找到。有了这个手机，一切都会顺利地在你的冒险。</p>
 						<button class=""><nuxt-link to="/product">查看更多</nuxt-link></button>
 					</div>
@@ -30,7 +35,7 @@
 				</div>
 				<div class="basis-1/2">
 					<div class="md:mt-16">
-						<h3 class="mb-5" style="font-size: 1.5rem;">AORO遨游A8工业级智能防爆手机</h3>
+						<h3 class="mb-5" style="font-size: 1.5rem;">IMETA元探索A8工业级智能防爆手机</h3>
 						<p class="mb-16" style="color: #888;font-size: 14px;">应用程序工具箱，里面包含大量的应用程序，徒步旅行和登山满足你。噪音测试、指南针、手电筒、水平仪、挂画、心率、高度测量、放大镜、警铃、铅锤、量角器。</p>
 						<button class=""><nuxt-link to="/product">查看更多</nuxt-link></button>
 					</div>
@@ -70,20 +75,25 @@
 				</div>
 			</section>
 		</div>
+		<div>
+			<img src="http://www.conquest.cn/u_file/photo/20190604/b73f67c320.jpg" alt="">
+		</div>
+		<!-- 产品中心 -->
+		<PageProduct />
 		<!-- 行业解决方案 -->
 		<!-- <PageSolution /> -->
 	</div>
 </template>
 
 <script setup>
-	const title = ref('VAA先锋音讯企业官网')
+	const title = ref('IMETA元探索防爆手机官网')
 	const bannerList = ref([
 		{
-			title: '这是一个title',
+			title: 'IMETA元探索防爆手机',
 			image: 'http://www.conquest.cn/u_file/photo/20220414/d2b8a53a48.jpg'
 		},
 		{
-			title: '这是一个title',
+			title: 'IMETA元探索防爆手机',
 			image: 'http://www.conquest.cn/u_file/photo/20220309/a41eec827f.jpg'
 		},
 	])
